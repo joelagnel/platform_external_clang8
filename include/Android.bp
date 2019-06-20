@@ -14,11 +14,11 @@
 // limitations under the License.
 //
 
-clang_tblgen_includes = " -I external/clang8/include"
-llvm_tblgen_includes = " -I external/llvm8/include"
-basic_tblgen_includes = " -I external/clang8/include/clang/Basic"
-driver_tblgen_includes = " -I external/clang8/include/clang/Driver"
-checkers_tblgen_includes = " -I external/clang8/include/clang/StaticAnalyzer/Checkers"
+clang_tblgen_includes = " -I external/bpftrace/clang8/include"
+llvm_tblgen_includes = " -I external/bpftrace/llvm8/include"
+basic_tblgen_includes = " -I external/bpftrace/clang8/include/clang/Basic"
+driver_tblgen_includes = " -I external/bpftrace/clang8/include/clang/Driver"
+checkers_tblgen_includes = " -I external/bpftrace/clang8/include/clang/StaticAnalyzer/Checkers"
 
 header_genrules = [
     "clang8_include_clang_AST_Attr_inc",
